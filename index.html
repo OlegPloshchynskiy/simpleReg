@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+
+    <form action="" name="reg">
+        <div class="input-box">
+            <input type="email" name="email" id="email" placeholder="Email...">
+            <span class="emailError"></span>
+        </div>
+        <div class="input-box">
+            <input type="password" minlength="8" name="password" id="password" placeholder="Password">
+        </div>
+        <div class="input-box">
+            <input type="password" minlength="8" name="password" id="repeatPassword" placeholder="Repeat password">
+            <span class="passError"></span>
+        </div>
+        <button id="submit">Submit</button>
+    </form>
+
+    <div class="login-success">
+        <span>
+            You are welcome!
+        </span>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
